@@ -1,9 +1,11 @@
 {
   "name": "webhook-test",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "build": "echo Build OK",
     "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
   }
 }
